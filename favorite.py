@@ -56,3 +56,5 @@ class Test_delete:
         response = requests.delete(f"{self.URL}/{id}", 
                     headers = self.Auth)
         assert_that(response.status_code).is_equal_to(204)
+
+# this is a simple api automation
